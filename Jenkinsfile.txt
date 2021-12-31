@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Hello world!'
 		echo env.BUILD_DISPLAY_NAME 
+		echo ${BUILD_DISPLAY_NAME} 
             }
         }
     }
